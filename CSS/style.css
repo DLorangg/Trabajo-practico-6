@@ -47,12 +47,14 @@
     letter-spacing: 0px;
     font-family: 'Liberation serif';
 }
+/* Botones */
 .contenido .info a{
+    font-family: 'Times New Roman';
     display: inline-block;
     text-decoration: none;
     font-size: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 88px;
+    margin-right: 80px;
     padding: 10px 25px;
     color: #fff;
     background: rgb(191, 149, 14);
@@ -61,4 +63,8 @@
     border: 2px solid transparent;
     transition: all 30ms ease;
     letter-spacing: 0px;
+}
+.contenido .info a:hover{
+    font-size: 22px;
+    border: 2px solid #fff;
 }
