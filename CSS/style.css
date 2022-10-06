@@ -15,10 +15,13 @@
     font-style: normal;
     font-weight: 400;
 }
+body{
+    margin: 0;
+}
 /* Estilos */
 .papa{
     width: 100%;
-    height: 915px;
+    height: 933px;
     position: relative;
 }
 .portada{
