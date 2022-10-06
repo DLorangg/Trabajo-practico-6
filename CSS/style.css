@@ -39,3 +39,11 @@
     max-width: 400;
     text-align: center;
 }
+.contenido .info h1{
+    color: #000;
+    font-size: 50px;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+    font-family: 'Liberation serif';
+}
