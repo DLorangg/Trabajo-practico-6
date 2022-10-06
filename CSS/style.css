@@ -1,3 +1,7 @@
+/* Variables */
+:root{
+    --letra: #fff;
+}
 /* Fuentes */
 @font-face {
     font-family: 'Liberation serif';
@@ -40,10 +44,20 @@
     text-align: center;
 }
 .contenido .info h1{
-    color: #fff;
+    color: var(--letra);
     font-size: 50px;
     text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
-    margin-bottom: 50px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0px;
+    font-family: 'Liberation serif';
+}
+.contenido .info h2{
+    color: var(--letra);
+    font-size: 30px;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    margin: 0;
+    margin-bottom: 70px;
     letter-spacing: 0px;
     font-family: 'Liberation serif';
 }
@@ -56,7 +70,7 @@
     margin-left: 88px;
     margin-right: 80px;
     padding: 10px 25px;
-    color: #fff;
+    color: var(--letra);
     background: rgb(191, 149, 14);
     border-radius: 50px;
     margin-bottom: 20px;
@@ -66,5 +80,5 @@
 }
 .contenido .info a:hover{
     font-size: 22px;
-    border: 2px solid #fff;
+    border: 2px solid var(--letra);
 }
