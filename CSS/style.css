@@ -4,3 +4,9 @@
     font-style: normal;
     font-weight: 400;
 }
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('../FUENTES/Times New Roman.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
