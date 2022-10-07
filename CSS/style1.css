@@ -1,3 +1,4 @@
+/* Fuentes */
 @font-face {
     font-family: 'Liberation serif';
     src: url('../FUENTES/LiberationSerif-Regular.ttf');
@@ -10,6 +11,7 @@
     font-style: normal;
     font-weight: 400;
 }
+/* Estilos */
 body{
     margin: 0;
 }
