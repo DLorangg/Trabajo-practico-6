@@ -8,13 +8,13 @@
     font-family: 'Liberation serif';
     src: url('../FUENTES/LiberationSerif-Regular.ttf');
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
 }
 @font-face {
     font-family: 'Times New Roman';
     src: url('../FUENTES/Times New Roman.ttf');
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
 }
 /* Estilos */
 body{
@@ -26,6 +26,7 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    text-decoration: none;
 }
 .papa{
     width: 70%;
@@ -42,13 +43,15 @@ header{
     padding: 10px;
     border-radius: 40px;
 }
-
+header h2{
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-size: 20px;
+}
 a:link, a:visited, a:active {
     text-decoration:none;
 }
 .logo{
-    font-family: 'Liberation Serif';
-    font-style: normal;
     width: 90px;
     margin-top: 5px;
     margin-left: 10px;
@@ -66,18 +69,33 @@ nav .boton{
     margin: 10px;
 }
 nav .boton:hover{
-    font-size: 22px;
+    font-size: 20px;
     border: 2px solid var(--letra);
 }
-h1{
+#preg{
+    width: 100%;
     text-align: center;
-    justify-content: space-between;
+    border-radius: 40px;
+    background-color: var(--fondo);
+    position: relative;
     font-family: 'Liberation serif';
     font-size: 20;
+    font-weight: 20;
+}
+.preguntas ol ol{
+    list-style-type: lower-latin;
 }
 .preguntas{
+    border-radius: 40px;
+    background-color: var(--fondo);
+    position: relative;
+    padding: 10px;
+}
+.preguntas li{
+    margin-top: 5px;
     font-size: 12;
 }
+
 #botonArriba{
     position: fixed;
     bottom: -100px;
