@@ -1,6 +1,7 @@
 /* Variables */
 :root{
     --letra: #fff;
+    --fondo: rgb(69, 67, 62);
 }
 /* Fuentes */
 @font-face {
@@ -26,11 +27,16 @@ body{
     background-position: center center;
     background-attachment: fixed;
 }
+.papa{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
 header{
     display: flex;
-    background-color: rgb(69, 67, 62);
+    background-color: var(--fondo);
     height: 120px;
-    width: 70%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -64,6 +70,8 @@ nav .boton:hover{
     border: 2px solid var(--letra);
 }
 h1{
+    text-align: center;
+    justify-content: space-between;
     font-family: 'Liberation serif';
     font-size: 20;
 }
