@@ -1,0 +1,105 @@
+/* Variables */
+:root{
+    --letra: #fff;
+    --fondo: rgb(69, 67, 62);
+}
+/* Fuentes */
+@font-face {
+    font-family: 'Liberation serif';
+    src: url('../FUENTES/LiberationSerif-Regular.ttf');
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('../FUENTES/Times New Roman.ttf');
+    font-style: normal;
+    font-weight: 200;
+}
+/* Estilos */
+body{
+    margin: 0;
+    color: var(--letra);
+    font-family: 'Times New Roman';
+    background-color: #383836;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    text-decoration: none;
+}
+.papa{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+header{
+    margin-top: 1.5%;
+    display: flex;
+    background-color: var(--fondo);
+    height: 120px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 40px;
+}
+header h2{
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-size: 20px;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.logo{
+    width: 90px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+nav .boton{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    color: var(--letra);
+    background: rgb(191, 149, 14);
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: all 30ms ease;
+    letter-spacing: 0px;
+    margin: 10px;
+}
+nav .boton:hover{
+    font-size: 20px;
+    border: 2px solid var(--letra);
+}
+#resp{
+    width: 100%;
+    text-align: center;
+    border-radius: 40px;
+    background-color: var(--fondo);
+    position: relative;
+    font-family: 'Liberation serif';
+    font-size: 20;
+    font-weight: 20;
+}
+.respuestas ol ol{
+    list-style-type: lower-latin;
+}
+.respuestas{
+    border-radius: 40px;
+    background-color: var(--fondo);
+    position: relative;
+    padding: 10px;
+}
+.respuestas li{
+    margin-top: 5px;
+    font-size: 12;
+}
+#botonArriba{
+    position: fixed;
+    bottom: -100px;
+    right: 50%;
+    width: 50px;
+    transition: all 1s;
+}
