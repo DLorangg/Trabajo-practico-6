@@ -11,5 +11,4 @@ function irArriba(pixeles){
         
      })
 }
-
 irArriba(400);
