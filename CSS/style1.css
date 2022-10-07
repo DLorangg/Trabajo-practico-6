@@ -13,3 +13,9 @@
 body{
     margin: 0;
 }
+#botonArriba{
+    position: fixed;
+    bottom: -100px;
+    right: 50%;
+    width: 50px;
+}
