@@ -81,12 +81,13 @@ nav .boton:hover{
     position: relative;
     font-family: 'Liberation serif';
     font-size: 20;
-    font-weight: 20;
+    font-weight: 20; 
 }
 .respuestas ol ol{
     list-style-type: lower-latin;
 }
 .respuestas{
+    margin-bottom: 1.5%;
     border-radius: 40px;
     background-color: var(--fondo);
     position: relative;
