@@ -16,6 +16,12 @@
     font-style: normal;
     font-weight: 200;
 }
+@font-face {
+    font-family: 'Times New Roman Bold';
+    src: url('../FUENTES/times new roman bold.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
 /* Estilos */
 body{
     margin: 0;
