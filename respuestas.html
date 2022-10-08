@@ -113,12 +113,78 @@
                         <li>split(): utiliza una expresión regular o una cadena fija para dividir una cadena en un arreglo de subcadenas.</li>
                     </ul>
                 </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>
+                    <p>Formas de declarar una funcion: </p>
+                    <ul>
+                        <li>Function declaration: este tipo de función se creará con la palabra reservada function, seguido obligatoriamente por un nombre, que identificará a nuestra función, una lista de parámetros entre paréntesis, y el símbolo de las llaves {}. Qué será el que delimite el contenido de nuestro conjunto de sentencias.</li>
+                        <li>Function expression: la sintaxis para crear estas funciones es similar a la anterior. La única diferencia es que la definición de nuestra nueva función no comienza por instrucción function y el nombre de la función es opcional.</li>
+                        <li>IIFE (Immediately Invoked Function Expression): Este tipo de funciones se ejecutan inmediatamente y no son accesibles posteriormente.
+                        Para crear una función de este tipo deberemos crearla en un operador de agrupación (). Seguido de (), lo que posibilitará el interpretado directamente en el motor de JavaScript.</li>
+                        <li>Shorthand method definition: para crear este tipo de función debemos asignar un nombre de función seguido de una lista de parámetros entre paréntesis y los símbolos de llaves para delimitar el cuerpo de las instrucciones.</li>
+                        <li>Arrow function: la forma de crear estas funciones es la siguiente: Primero definiremos la lista de parámetros, en caso de ser necesario, entre paréntesis seguido del símbolo => y las {} para indicar las instrucciones que se van a realizar.</li>
+                        <li>Generator function: nos permite parar o salir de la función en un punto dentro del conjunto de instrucciones que forman nuestra función y retornar posteriormente la ejecución desde el punto en el que paramos anteriormente.
+                        La sintaxis de estas funciones es igual a las "function declaration" o "function expression". Sólo debemos utilizar el símbolo * al comienzo de la definición de nuestra función.</li>
+                        <li>Function constructor: podremos crear una variable que invoque a un objeto Function. Cuando invoquemos a este objeto podremos enviar todos los argumentos que deseemos. Los primeros n argumentos serán los parámetros de nuestra función y el último argumento será el código de nuestra función.</li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Tipos de operadores:</p>
+                    <ul>
+                        <li>Operadores unarios: es una operación con un solo operando.</li>
+                        <li>Operadores aritméticos: toman valores numéricos (ya sean literales o variables) como sus operandos y devuelven un solo valor numérico.</li>
+                        <li>Operadores relacionales: compara sus operandos y devuelve un valor 'boolean' basado en si la comparación es verdadera o no.</li>
+                        <li>Operadores de igualdad: el resultado de evaluar un operador de igualdad siempre es de tipo Boolean basado en si la comparación es verdadera.</li>
+                        <li>Operadores de desplazamiento de bits: sirve para cambiar todos los bits del operando.</li>
+                        <li>Operadores binarios bit a bit: tratan a sus operandos como un conjunto de 32 bits (ceros y unos) y devuelven valores numéricos estándar de JavaScript.</li>
+                        <li>Operadores lógicos binarios: se utilizan normalmente con valores booleanos (lógicos); cuando lo son, devuelven un valor booleano.</li>
+                        <li>Operador condicional (ternario): devuelve uno de dos valores según el valor lógico de la condición.</li>
+                        <li>Operadores de asignación: asigna un valor a su operando izquierdo basándose en el valor de su operando derecho.</li>
+                        <li>Operador coma: permite evaluar múltiples expresiones en una sola declaración y devuelve el resultado de la última expresión.</li>
+                    </ul>
+                    <p>La conversión entre tipos ocurre cuando los operadores y funciones automáticamente son convertidos al tipo correcto de valor. Estos tipos son 'ToString' para pasar cualquier dato a representarlo de forma de texto. 'ToNumber' para pasar cualquier dato en funciones matemáticas y expresiones a una representación numérica. 'ToBoolean' pasar datos en operaciones lógicas a una representación con valor de verdad o falso.</p>
+                 </li>
+                <li>
+                    <p>Una estructura de control es una herramienta que tienen los lenguajes de programación y que se utiliza para controlar el flujo de las operaciones durante el programa. Ejemplos:</p>
+                    <ul>
+                        <li>if: la sentencia if especifica un bloque de código que se ejecuta si una condición es cierta y da la oportunidad de ejecutar otro bloque de código distinto si resulta que no es cierta.</li>
+                        <li>else: la parte de else es opcional, y especifica un bloque de código que se ejecuta si la condición es falsa. Siempre acompañado de un 'IF'</li>
+                        <li>Operador ternario(?): es una alternativa de condicional if/else de una forma mucho más corta y, en muchos casos, más legible.</li>
+                        <li>switch: Se utiliza para hacer diferentes acciones basadas en diferentes condiciones. Consiste en darle un valor y comprobar si ese valor coincide con algún caso. En el caso que coincida, ejecutamos un bloque de código específico.</li>
+                    </ul>
+                </li>
+                <li>
+                    <p>El modelo de objeto de documento (DOM) es una interfaz de programación para HTML. Facilita una representación estructurada del documento y define de qué manera los programas pueden acceder, al fin de modificar, tanto su estructura, estilo y contenido. El DOM da una representación del documento como un grupo de nodos y objetos estructurados que tienen propiedades y métodos. Esencialmente, conecta las páginas web a scripts o lenguajes de programación.</p>
+                    <p> El dom se creará una vez que el navegador web lea todos los elementos HTML y los regrese como un objeto, y con esto JS podrá mostrar una representación de todo lo que tenga el archivo de hipermarcado de texto.</p>
+                </li>
+                <li>El Object Map en JS tiene la función de ir guardando un valor como clave seguido de otro, que será la función de dicha clave. Es un tipo de array donde se formará un tipo de recuadro con filas y columnas para almacenar datos, y que después se podrá trabajar con cada función de su respectiva clave.</li>
+                <li>Todos los eventos que trabaja JavaScript son:
+                    <ul>
+                        <li>Abort (onabort): evento que se produce cuando se detiene la carga de algo en la página.</li>
+                        <li>Blur (onblur): evento que se produce cuando un elemento pierde el foco de la aplicación.</li>
+                        <li>Change (onchange): evento que se produce cuando cambia el estado de un elemento de un formulario</li>
+                        <li>Click (onclick): evento que se produce cuando se pulsa o se hace click en un botón o un enlace.</li>
+                        <li>Dragdrop (ondragdrop): evento que se produce cuando un usuario suelta algo que había arrastrado sobre la página web.</li>
+                        <li>Error (onerror): evento que se produce cuando no se puede cargar un documento o una imagen y esta queda rota.</li>
+                        <li>Focus (onfocus): evento que se produce cuando un elemento de la página o la ventana ganan el foco de la aplicación.</li>
+                        <li>Keydown (onkeydown): evento que se produce cuando un usuario presiona una tecla, independientemente que la suelte o no. Se produce en el momento de la pulsación.</li>
+                        <li>Keypress (onkeypress): evento que se produce cuando el usuario deja pulsada una tecla un tiempo determinado.</li>
+                        <li>Keyup (onkeyup): evento que se produce cuando el usuario deja de apretar una tecla. Se produce en el momento que se libera la tecla.</li>
+                        <li>Load (onload): evento que se produce cuando la página se ha terminado de cargar.</li>
+                        <li>Mousedown (onmousedown): evento que se produce cuando el usuario pulsa sobre un elemento de la página.</li>
+                        <li>Mousemove (onmousemove): evento que se produce cuando el usuario mueve el ratón por la página.</li>
+                        <li>Mouseout (onmouseout): evento que se produce cuando el puntero del ratón sale del área ocupada por un elemento de la página.</li>
+                        <li>Mouseover (onmouseover): evento que se produce cuando el puntero del ratón entra en el área ocupada por un elemento de la página.</li>
+                        <li>Mouseup (onmouseup): evento que se produce cuando el usuario suelta el botón del ratón, que previamente había pulsado.</li>
+                        <li>Move (onmove): evento que se produce cuando se mueve la ventana del navegador, o un frame.</li>
+                        <li>Resize (onresize): evento que se produce cuando se redimensiona la ventana del navegador, o el frame, en caso de que la página los tenga.</li>
+                        <li>Reset (onreset): evento que se produce cuando un usuario hace clic en el botón de reset de un formulario.</li>
+                        <li>Select (onselect): evento que se produce cuando un usuario realiza una selección de un elemento de un formulario.</li>
+                        <li>Submit (onsubmit): evento que se produce cuando el usuario pulsa el botón para enviar un formulario.</li>
+                        <li>Unload (onunload): evento que se produce cuando se avandona la página.</li>
+                        <li>DblClick (ondblclick): evento que se produce cuando el usuario hace doble click en un elemento de formulario o un link.</li>
+                        <li>Scroll (onscroll): evento que se produce cuando se realiza scroll o desplazamiento.</li>
+                    </ul>
+                </li>
                 <li></li>
                 <ol>
                     <li></li>
