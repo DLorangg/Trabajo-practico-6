@@ -1,5 +1,6 @@
 /* Variables */
 :root{
+    --js: #F0DB4F;
     --letra: #fff;
     --fondo: rgb(69, 67, 62);
 }
@@ -15,6 +16,12 @@
     src: url('../FUENTES/Times New Roman.ttf');
     font-style: normal;
     font-weight: 200;
+}
+@font-face {
+    font-family: 'Times New Roman Bold';
+    src: url('../FUENTES/times new roman bold.ttf');
+    font-style: normal;
+    font-weight: 400;
 }
 /* Estilos */
 body{
@@ -58,11 +65,11 @@ a:link, a:visited, a:active {
     margin-left: 10px;
 }
 nav .boton{
-    text-decoration: none;
+    font-family: 'Times New Roman Bold';
     font-size: 20px;
     padding: 10px 25px;
     color: var(--letra);
-    background: rgb(191, 149, 14);
+    background: var(--js);
     border-radius: 50px;
     border: 2px solid transparent;
     transition: all 30ms ease;
@@ -103,4 +110,12 @@ nav .boton:hover{
     right: 50%;
     width: 50px;
     transition: all 1s;
+}
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background: var(--js);
+    border-radius: 5px;
+    border-right: 1px solid #BD7332
 }
